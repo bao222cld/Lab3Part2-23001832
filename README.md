@@ -22,19 +22,7 @@ Ghi file module src/representations/word_embedder.py.
 
 Tạo file test/lab4_test.py có phần tự động thêm src/ vào sys.path để chạy thuận tiện.
 
-Chạy test trong notebook: !python test/lab4_test.py — giữ toàn bộ output trong notebook trước khi xuất PDF.
-
-Xuất PDF từ Colab (File → Print → Save as PDF) đảm bảo không ẩn outputs.
-
-Lệnh chạy nhanh (trong Colab)
-# cài thư viện nếu cần
-!pip install --quiet gensim umap-learn scikit-learn matplotlib
-
-# chạy test demo (sẽ tải model nếu lần đầu)
-!python test/lab4_test.py
-
-# (tuỳ chọn) nén submission
-!zip -r submission.zip src test notebook.ipynb 23001832_NguyenLeNgocBao_Lab03.pdf README.txt
+Chạy test trong notebook: !python test/lab4_test.py — giữ toàn bộ output trong notebook 
 
 Khó khăn gặp phải
 
